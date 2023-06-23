@@ -1,0 +1,17 @@
+{
+  "name": "ts-units",
+  "version": "0.0.0",
+  "description": "Utilize and convert between units using Typescript generics",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Devin Droddy",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.60.0",
+    "eslint": "^8.43.0",
+    "prettier": "^2.8.8",
+    "typescript": "^4.9.5"
+  }
+}
