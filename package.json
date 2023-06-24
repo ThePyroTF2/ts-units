@@ -1,17 +1,18 @@
 {
 	"name": "ts-units",
-	"version": "0.0.0",
-	"description": "Utilize and convert between units using Typescript generics",
+	"version": "1.0.0",
+	"description": "A package for the simple management of physical units and conversion between them",
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:ThePyroTF2/ts-units.git"
 	},
-	"main": "src/index.ts",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"build": "tsc"
 	},
 	"author": "Devin Droddy",
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.60.0",
 		"@typescript-eslint/parser": "^5.60.0",
